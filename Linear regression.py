@@ -32,6 +32,7 @@ alpha = y_bar - beta * x_bar
 print(f"Mean X: {x_bar}")
 print(f"Mean Y: {y_bar}")
 
+print("\n")
 
 print(f"sumX: {sumX}")
 print(f"sumY: {sumY}")
@@ -39,12 +40,25 @@ print(f"sumX2: {sumX2}")
 print(f"sumY2: {sumY2}")
 print(f"sumXY: {sumXY}")
 
+print("\n")
+
+
 print(f"Sxx: {Sxx}")
 print(f"Syy: {Syy}")
 print(f"Sxy: {Sxy}")
 
+print("\n")
+
+
 print(f"r: {r}")
+
+print("\n")
+
 
 print(f"Alpha: {alpha}")
 print(f"Beta: {beta}")
+
+print("\n")
+
+
 print(f"Linear Regression Line: Y = {alpha:.4f} + {beta:.4f}X")
